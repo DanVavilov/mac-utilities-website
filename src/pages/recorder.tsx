@@ -1,6 +1,14 @@
-import React from 'react';
+import { useEffect } from 'react';
+import { useRouter } from 'next/router';
 
-function Recorder() {
+const Recorder = () => {
+
+    // const router = useRouter();
+    //
+    // useEffect(() => {
+    //     router.replace('/recorder');
+    // }, [router]);
+
     return (
         <div>
             <h1>MacOS Recorder</h1>

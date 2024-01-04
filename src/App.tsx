@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
-import Home from './pages/Home';
-import Recorder from './pages/Recorder';
-import Redirect from './pages/Redirect';
+import Index from './pages';
+import Recorder from './pages/recorder';
+import Redirect from './pages/mac-recorder';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
           <Link to="/recorder">Recorder</Link>
         </nav>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Index />} />
           <Route path="/recorder" element={<Recorder />} />
           <Route path="/mac-recorder" element={<Redirect />} />
         </Routes>

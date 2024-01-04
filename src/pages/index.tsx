@@ -1,13 +1,15 @@
-import React from 'react';
+import Link from 'next/link';
 
-function Home() {
+function Index() {
     return (
         <div>
             <h1>Welcome to MacOS Recorder</h1>
             <p>Discover the ultimate recording solution for your MacOS.</p>
-            <a href="/src/pages/Recorder">Learn More</a>
+            <Link href="/src/pages/recorder">
+                <a>Learn More</a>
+            </Link>
         </div>
     );
 }
 
-export default Home;
+export default Index;
