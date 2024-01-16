@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../mac-utilities-website.iml" filepath="$PROJECT_DIR$/../mac-utilities-website.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mac-utilities-website.iml" filepath="$PROJECT_DIR$/mac-utilities-website.iml" />
     </modules>
   </component>
 </project>
