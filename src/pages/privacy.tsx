@@ -24,7 +24,7 @@ const PrivacyPolicy: React.FC = () => {
             <div style={styles.privacyContainer}>
                 <h1 style={styles.title}>Privacy Policy</h1>
                 <p style={styles.section}>
-                    Your privacy is important to us. It is Your App's policy to respect your privacy and comply with any
+                    Your privacy is important to us. It is Your Apps policy to respect your privacy and comply with any
                     applicable law and regulation regarding any personal information we may collect about you, including
                     across our app, Your App Name, and its associated services.
                 </p>

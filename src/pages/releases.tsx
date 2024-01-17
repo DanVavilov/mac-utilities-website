@@ -1,0 +1,1 @@
+// https://github.com/TheOneStudioLLC/Mac-Recorder/releases
